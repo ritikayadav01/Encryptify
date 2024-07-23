@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .mycontainer{
+        @apply container px-40 py-16 mx-auto;
+        
+    }
+}
+body{
+    background: rgb(67, 35, 137) ;
+    background: radial-gradient(125% 125% at 50% 10%, #060411 40%, #63e 100%);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
